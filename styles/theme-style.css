@@ -1,0 +1,66 @@
+/* theme style*/
+.theme
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightblue;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+.search-box
+{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar
+{
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.15);
+    min-width: 250px;
+    height: 30px;
+    padding-left: 5px;
+    
+}
+
+.search-button
+{
+    height: 30px;
+    width: 40px;
+    border: none;
+    background: none;
+    border-radius: 4px;
+    
+}
+
+.search-icon
+{
+    height: 30px;
+}
+
+.search-icon:hover
+{
+    opacity: 0.8;
+}
+
+.search-icon:active
+{
+    opacity: 0.5;
+}
+
+
+.slogen
+{
+    font-size: 30px;
+    font-family: monaco;
+    color:rgb(120, 110, 126);
+    height: 70px;
+    
+}

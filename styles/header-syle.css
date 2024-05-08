@@ -1,0 +1,55 @@
+
+
+/* header style*/
+    .header
+    {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        justify-content: space-between;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: gray
+    }
+
+    .name-logo
+    {
+        background-color: lightblue;
+    }
+
+    .logo
+    {
+        width: 80px;
+        border-radius: 4px;
+    }
+    .name
+    {
+        font-family: cursive;
+        font-size: 30px;
+        
+    }
+
+    .middle-section
+    {
+        display: flex;
+        background-color: lightgreen;
+        flex:1;
+        max-width: 500px;
+        margin-left: 40px;
+        margin-right: 40px;
+        align-items: center;
+        
+        
+    }
+
+    .menu
+    {
+        display: flex;
+        align-items: center;
+        background-color: lightcoral;
+        flex-shrink: 0;
+    }
